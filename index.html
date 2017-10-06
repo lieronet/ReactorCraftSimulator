@@ -95,9 +95,9 @@
         <br>
         <p style="text-align: center">
             HTGR Depth:
-            <input ng-model="" style"width: 30px;text-align: center;">
-            <button ng-click="">+</button>
-            <button ng-click="">-</button>
+            <input ng-model="mc.depth" style"width: 30px;text-align: center;">
+            <button ng-click="mc.depth=mc.inc(mc.depth)">+</button>
+            <button ng-click="mc.depth=mc.depth-1">-</button>
         </p>
         <br>
         <p align="center">
