@@ -10,3 +10,5 @@ BUT I am not responsible for the explosion of your reactor. :P
 Thanks to DPurple for the java version simulator. I converted it to Javascript and wrapped it with AngularJS and Bootstrap.
 
 ReactorCraft Github repo : https://github.com/ReikaKalseki/ReactorCraft
+
+Forked from Yuyuyzl's code, trying to improve the simulation code and add some new features.
