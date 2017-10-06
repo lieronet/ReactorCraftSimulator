@@ -75,6 +75,20 @@
             else n=Number(n)+1;
             return n;
         };
+        this.dec=function(n){
+            if(Number(n) > 1)
+            {
+                if(typeof(n)=="number")
+                {
+                    n--;
+                }
+                else
+                {
+                    n = Number(n)-1;
+                }
+            }
+            return n;
+        };
         this.mdown=false;
         this.mousemoveHandler=function(down,x,y){
             if (down==1){
