@@ -8,6 +8,7 @@
     app.controller("mainController",['$sce','$q','$scope','$timeout',function($sce,$q,$scope,$timeout){
         this.col=8;
         this.row=8;
+        this.depth=1;
         this.chosen=1;
         this.cappcount=0;
         this.fuelType=0;
@@ -18,6 +19,7 @@
         this.clearData=function(){
             this.data=[];
             this.cellTemp=[];
+            this.depth=1;
             for (var i=0;i<32;i++)this.data.push(new Array(32));
             for (var i=0;i<32;i++)this.cellTemp.push(new Array(32));
             this.stopNow=true;
