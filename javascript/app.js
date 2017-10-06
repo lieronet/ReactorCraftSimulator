@@ -20,6 +20,7 @@
             this.cellTemp=[];
             for (var i=0;i<32;i++)this.data.push(new Array(32));
             for (var i=0;i<32;i++)this.cellTemp.push(new Array(32));
+            this.stopNow=true;
         };
         this.clearData();
         this.GetQueryString=function(name){
