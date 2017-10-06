@@ -1,7 +1,7 @@
 # ReactorCraftSimulator
 This is a simulator for Reika's minecraft mod ReactorCraft. 
 
-Direct Link : http://yuyuyzl.github.io/ReactorCraftSimulator/
+Direct Link : http://lieronet.github.io/ReactorCraftSimulator/
 
 We use exactly the same algorithm as the mod itself (tons of random) and give the important data you need in a minute instead of hours or days waiting in creative & superflat.
 
